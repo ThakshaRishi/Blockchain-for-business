@@ -1,10 +1,10 @@
 
-EX.NO-1
-CREATING A PRIVATE DATE: BLOCKCHAIN
-AIM
+# EX.NO-1
+# CREATING A PRIVATE DATE: BLOCKCHAIN
+# AIM
 To create a Private Blockchain and to add nodes, create accounts, transfer Ether into it by creating
 and deploying Smart contract.
-PROCEDURE
+# PROCEDURE
 
 ```
 1.Go to https //geth.ethereum.org/ and download the software for windows. While installing select
@@ -67,8 +67,10 @@ authrpc.port 8546 --networkid { NETWORK_ID } --unlock { ADDRESS_NODE2 } --passwo
 17.Click on file and under contract, create new file named “New.sol”
 18.Save the file and go to deploy tab and click deploy.
 19.Node1 has deployed and added to blockchain.
-5
-PROGRAM
+```
+
+# PROGRAM
+```
 #Genesis file privateblock.json
 {
 "config" {
@@ -112,11 +114,18 @@ return name;
 }
 }
 ```
-OUTPUT
-# Deploying Transaction in Remix
-7
-# Contract Creation Output in Command Prompt
-<img width="1180" height="492" alt="image" src="https://github.com/user-attachments/assets/fc0eaa31-1340-4c3e-8410-3ca49a1f4dcd" />
+# OUTPUT
 
-RESULT: Thus, the Private Blockchain is created, nodes are added with accounts, and Ether is transferred
+
+# Deploying Transaction in Remix
+
+<img width="346" height="637" alt="image" src="https://github.com/user-attachments/assets/71537227-0499-4d4e-910b-76c82906065d" />
+
+
+# Contract Creation Output in Command Prompt
+
+<img width="1363" height="344" alt="image" src="https://github.com/user-attachments/assets/03b44d49-6f26-42be-903f-79fea39990c9" />
+
+# RESULT:
+Thus, the Private Blockchain is created, nodes are added with accounts, and Ether is transferred
 into it by creating and deploying Smart contract successfully
